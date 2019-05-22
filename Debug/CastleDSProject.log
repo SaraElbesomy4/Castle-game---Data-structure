@@ -1,0 +1,67 @@
+﻿Build started 22/12/2018 07:45:50 م.
+     1>Project "F:\Books\Year5\Data_Structure\Project\DSProject_Code_S2018\CastleDSProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Battle.cpp
+         Battle.cpp
+     1>f:\books\year5\data_structure\project\dsproject_code_s2018\gui\gui.h(29): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>f:\books\year5\data_structure\project\dsproject_code_s2018\gui\gui.h(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>f:\books\year5\data_structure\project\dsproject_code_s2018\inputgenerator.h(16): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\books\year5\data_structure\project\dsproject_code_s2018\battle.cpp(62): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\books\year5\data_structure\project\dsproject_code_s2018\battle.cpp(462): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\books\year5\data_structure\project\dsproject_code_s2018\battle.cpp(469): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/CastleDSProject.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/CastleDSProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CastleDSProject.lib" /MACHINE:X86 /SAFESEH .\Debug/Battle.obj
+         .\Debug/Castle.obj
+         .\Debug/Tower.obj
+         .\Debug/auxil.obj
+         .\Debug/CMUgraphics.obj
+         .\Debug/colors.obj
+         .\Debug/image.obj
+         .\Debug/jpegload.obj
+         .\Debug/keyqueue.obj
+         .\Debug/mousequeue.obj
+         .\Debug/windowinput.obj
+         .\Debug/jcomapi.obj
+         .\Debug/jcparam.obj
+         .\Debug/jdapimin.obj
+         .\Debug/jdapistd.obj
+         .\Debug/jdatasrc.obj
+         .\Debug/jdcoefct.obj
+         .\Debug/jdcolor.obj
+         .\Debug/jddctmgr.obj
+         .\Debug/jdhuff.obj
+         .\Debug/jdinput.obj
+         .\Debug/jdmainct.obj
+         .\Debug/jdmarker.obj
+         .\Debug/jdmaster.obj
+         .\Debug/jdmerge.obj
+         .\Debug/jdphuff.obj
+         .\Debug/jdpostct.obj
+         .\Debug/jdsample.obj
+         .\Debug/jdtrans.obj
+         .\Debug/jerror.obj
+         .\Debug/jidctflt.obj
+         .\Debug/jidctfst.obj
+         .\Debug/jidctint.obj
+         .\Debug/jidctred.obj
+         .\Debug/jmemmgr.obj
+         .\Debug/jmemnobs.obj
+         .\Debug/jquant1.obj
+         .\Debug/jquant2.obj
+         .\Debug/jutils.obj
+         .\Debug/Demo_Main.obj
+         .\Debug/Enemy.obj
+         .\Debug/EnemyCollector.obj
+         .\Debug/EnemyFighter.obj
+         .\Debug/EnemyFreezer.obj
+         .\Debug/EnemyHealer.obj
+         .\Debug/EnemyWeaken.obj
+         .\Debug/GUI.obj
+         CastleDSProject.vcxproj -> F:\Books\Year5\Data_Structure\Project\DSProject_Code_S2018\.\Debug\CastleDSProject.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug/CastleDSProject.bsc" .\Debug\Battle.sbr .\Debug\Castle.sbr .\Debug\Tower.sbr .\Debug\auxil.sbr .\Debug\CMUgraphics.sbr .\Debug\colors.sbr .\Debug\image.sbr .\Debug\jpegload.sbr .\Debug\keyqueue.sbr .\Debug\mousequeue.sbr .\Debug\windowinput.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdphuff.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jidctred.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr .\Debug\Demo_Main.sbr .\Debug\Enemy.sbr .\Debug\EnemyCollector.sbr .\Debug\EnemyFighter.sbr .\Debug\EnemyFreezer.sbr .\Debug\EnemyHealer.sbr .\Debug\EnemyWeaken.sbr .\Debug\GUI.sbr
+     1>Done Building Project "F:\Books\Year5\Data_Structure\Project\DSProject_Code_S2018\CastleDSProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.26
